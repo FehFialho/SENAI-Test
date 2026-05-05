@@ -13,6 +13,14 @@ def divide(a, b):
 def multiply(a, b):
     return a * b
 
+def lowerValue(a,b):
+    if (a == b):
+        return a
+    if (a>b):
+        return b
+    return a
 
-print(sum(1,2))
-print(divide(5,0))
+def evenOdd(x):
+    if (x % 2 == 0):
+        return "even"
+    return "odd"
